@@ -8,6 +8,7 @@ public class HealthCareSystemApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(HealthCareSystemApplication.class, args);
+        System.out.println("http://localhost:8080/swagger-ui/index.html");
     }
 
 }
